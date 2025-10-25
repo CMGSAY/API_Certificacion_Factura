@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\carlo\\Desktop\\Proyecto Certificacion PW2\\APICertificacion\\Meso.Certificaciones\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2949FFA7-154E-4CCE-A957-60A6FEC31E2C}|Meso.TESTS.Certificaciones\\Meso.TESTS.Certificaciones.csproj|c:\\users\\carlo\\desktop\\proyecto certificacion pw2\\apicertificacion\\meso.certificaciones\\meso.tests.certificaciones\\meso.tests.certificaciones.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2949FFA7-154E-4CCE-A957-60A6FEC31E2C}|Meso.TESTS.Certificaciones\\Meso.TESTS.Certificaciones.csproj|solutionrelative:meso.tests.certificaciones\\meso.tests.certificaciones.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{193C10B8-4FEB-4CD1-AA82-414D96A9B6A3}|Meso.SVL.Certificaciones\\Meso.SVL.Certificaciones.csproj|c:\\users\\carlo\\desktop\\proyecto certificacion pw2\\apicertificacion\\meso.certificaciones\\meso.svl.certificaciones\\meso.svl.certificaciones.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{193C10B8-4FEB-4CD1-AA82-414D96A9B6A3}|Meso.SVL.Certificaciones\\Meso.SVL.Certificaciones.csproj|solutionrelative:meso.svl.certificaciones\\meso.svl.certificaciones.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C8E7766-5BFE-4506-BC9A-E1AADAEC4810}|Meso.BLL.Certificaciones\\Meso.BLL.Certificaciones.csproj|c:\\users\\carlo\\desktop\\proyecto certificacion pw2\\apicertificacion\\meso.certificaciones\\meso.bll.certificaciones\\meso.bll.certificaciones.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3C8E7766-5BFE-4506-BC9A-E1AADAEC4810}|Meso.BLL.Certificaciones\\Meso.BLL.Certificaciones.csproj|solutionrelative:meso.bll.certificaciones\\meso.bll.certificaciones.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CC8566B-54B3-4233-A0AC-439562DAA00D}|Meso.DAL.Certificaciones\\Meso.DAL.Certificaciones.csproj|c:\\users\\carlo\\desktop\\proyecto certificacion pw2\\apicertificacion\\meso.certificaciones\\meso.dal.certificaciones\\meso.dal.certificaciones.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1CC8566B-54B3-4233-A0AC-439562DAA00D}|Meso.DAL.Certificaciones\\Meso.DAL.Certificaciones.csproj|solutionrelative:meso.dal.certificaciones\\meso.dal.certificaciones.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2949FFA7-154E-4CCE-A957-60A6FEC31E2C}|Meso.TESTS.Certificaciones\\Meso.TESTS.Certificaciones.csproj|c:\\users\\carlo\\desktop\\proyecto certificacion pw2\\apicertificacion\\meso.certificaciones\\meso.tests.certificaciones\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2949FFA7-154E-4CCE-A957-60A6FEC31E2C}|Meso.TESTS.Certificaciones\\Meso.TESTS.Certificaciones.csproj|solutionrelative:meso.tests.certificaciones\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Meso.TESTS.Certificaciones.csproj",
+              "DocumentMoniker": "C:\\Users\\carlo\\Desktop\\Proyecto Certificacion PW2\\APICertificacion\\Meso.Certificaciones\\Meso.TESTS.Certificaciones\\Meso.TESTS.Certificaciones.csproj",
+              "RelativeDocumentMoniker": "Meso.TESTS.Certificaciones\\Meso.TESTS.Certificaciones.csproj",
+              "ToolTip": "C:\\Users\\carlo\\Desktop\\Proyecto Certificacion PW2\\APICertificacion\\Meso.Certificaciones\\Meso.TESTS.Certificaciones\\Meso.TESTS.Certificaciones.csproj",
+              "RelativeToolTip": "Meso.TESTS.Certificaciones\\Meso.TESTS.Certificaciones.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-16T21:15:08.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Meso.SVL.Certificaciones.csproj",
+              "DocumentMoniker": "C:\\Users\\carlo\\Desktop\\Proyecto Certificacion PW2\\APICertificacion\\Meso.Certificaciones\\Meso.SVL.Certificaciones\\Meso.SVL.Certificaciones.csproj",
+              "RelativeDocumentMoniker": "Meso.SVL.Certificaciones\\Meso.SVL.Certificaciones.csproj",
+              "ToolTip": "C:\\Users\\carlo\\Desktop\\Proyecto Certificacion PW2\\APICertificacion\\Meso.Certificaciones\\Meso.SVL.Certificaciones\\Meso.SVL.Certificaciones.csproj",
+              "RelativeToolTip": "Meso.SVL.Certificaciones\\Meso.SVL.Certificaciones.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-16T21:13:28.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Meso.BLL.Certificaciones.csproj",
+              "DocumentMoniker": "C:\\Users\\carlo\\Desktop\\Proyecto Certificacion PW2\\APICertificacion\\Meso.Certificaciones\\Meso.BLL.Certificaciones\\Meso.BLL.Certificaciones.csproj",
+              "RelativeDocumentMoniker": "Meso.BLL.Certificaciones\\Meso.BLL.Certificaciones.csproj",
+              "ToolTip": "C:\\Users\\carlo\\Desktop\\Proyecto Certificacion PW2\\APICertificacion\\Meso.Certificaciones\\Meso.BLL.Certificaciones\\Meso.BLL.Certificaciones.csproj",
+              "RelativeToolTip": "Meso.BLL.Certificaciones\\Meso.BLL.Certificaciones.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-16T21:10:48.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Meso.DAL.Certificaciones.csproj",
+              "DocumentMoniker": "C:\\Users\\carlo\\Desktop\\Proyecto Certificacion PW2\\APICertificacion\\Meso.Certificaciones\\Meso.DAL.Certificaciones\\Meso.DAL.Certificaciones.csproj",
+              "RelativeDocumentMoniker": "Meso.DAL.Certificaciones\\Meso.DAL.Certificaciones.csproj",
+              "ToolTip": "C:\\Users\\carlo\\Desktop\\Proyecto Certificacion PW2\\APICertificacion\\Meso.Certificaciones\\Meso.DAL.Certificaciones\\Meso.DAL.Certificaciones.csproj",
+              "RelativeToolTip": "Meso.DAL.Certificaciones\\Meso.DAL.Certificaciones.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-16T21:03:26.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\carlo\\Desktop\\Proyecto Certificacion PW2\\APICertificacion\\Meso.Certificaciones\\Meso.TESTS.Certificaciones\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "Meso.TESTS.Certificaciones\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\carlo\\Desktop\\Proyecto Certificacion PW2\\APICertificacion\\Meso.Certificaciones\\Meso.TESTS.Certificaciones\\UnitTest1.cs",
+              "RelativeToolTip": "Meso.TESTS.Certificaciones\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T21:01:36.83Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
