@@ -1,0 +1,74 @@
+﻿{
+   "CodeGenerationMode": 4,
+   "ContextClassName": "CertificadorDBContext",
+   "ContextNamespace": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "MinimumProductVersion": "2.6.0",
+   "ModelNamespace": null,
+   "OutputContextPath": "C:\\Users\\carlo\\Desktop\\API_Certificacion_Factura\\Meso.Certificaciones\\Meso.DAL.Certificaciones",
+   "OutputPath": "Entities",
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "Meso.DAL.Certificaciones",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 2,
+   "SelectedToBeGenerated": 0,
+   "T4TemplatePath": null,
+   "Tables": [
+      {
+         "Name": "[dbo].[DTE_Anulacion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DTE_Certificacion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DTE_Detalle]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DTE_Factura]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Emisor]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Establecimiento]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Logs_Bitacora]",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": null,
+   "UncountableWords": null,
+   "UseAsyncStoredProcedureCalls": true,
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": true,
+   "UseDatabaseNamesForRoutines": true,
+   "UseDateOnlyTimeOnly": true,
+   "UseDbContextSplitting": false,
+   "UseDecimalDataAnnotationForSprocResult": true,
+   "UseFluentApiOnly": false,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": false,
+   "UseInternalAccessModifiersForSprocsAndFunctions": false,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UsePrefixNavigationNaming": false,
+   "UseSchemaFolders": false,
+   "UseSchemaNamespaces": false,
+   "UseSpatial": false,
+   "UseT4": false,
+   "UseT4Split": false
+}
