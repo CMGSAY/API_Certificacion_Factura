@@ -1,0 +1,49 @@
+﻿# Visual Studio
+.vs/
+*/bin/
+*/obj/
+*.user
+*.suo
+*.cache
+*.vsidx
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Entity Framework
+Migrations/
+App_Data/
+
+# NuGet
+**/[Nn]uget.config
+.nuget/
+nuget.exe
+NuGet.Config
+packages/
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+[Ll]og/
+[Ll]ogs/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Backup files
+*.backup
+*.tmp
