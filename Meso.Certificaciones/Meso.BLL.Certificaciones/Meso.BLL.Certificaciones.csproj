@@ -11,4 +11,10 @@
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Meso.CBL.Certificaciones\Meso.CBL.Certificaciones.csproj" />
+    <ProjectReference Include="..\Meso.DAL.Certificaciones\Meso.DAL.Certificaciones.csproj" />
+    <ProjectReference Include="..\Meso.DTO.Certificaciones\Meso.DTO.Certificaciones.csproj" />
+  </ItemGroup>
+
 </Project>
