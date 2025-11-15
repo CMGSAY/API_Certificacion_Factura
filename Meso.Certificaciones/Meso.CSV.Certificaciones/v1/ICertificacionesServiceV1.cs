@@ -1,10 +1,10 @@
-﻿using System;
+﻿using Meso.DTO.Certificaciones;
+using Meso.DTO.Certificaciones.Models;
+using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
-namespace Meso.CSV.Certificaciones
+namespace Meso.CSV.Certificaciones.v1
 {
     public interface ICertificacionesServiceV1
     {
@@ -18,8 +18,8 @@ namespace Meso.CSV.Certificaciones
         // ANULACIÓN
         Task<ResponseDTO<object>> CrearAnulacion(DTE_AnulacionDTO dto);
 
-        // EMISOR
 
+        // EMISOR
         Task<ResponseDTO<EmisorDTO>> ActivarEmisor(int emisorId);
         Task<ResponseDTO<EmisorDTO>> DesactivarEmisor(int emisorId);
     }

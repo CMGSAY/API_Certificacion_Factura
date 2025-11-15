@@ -1,26 +1,17 @@
-﻿using Meso.DTO.Certificaciones;
+﻿using System;
 using Meso.DTO.Certificaciones.Models;
-using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
 
-namespace Meso.CSV.Certificaciones.v1
+namespace Meso.CBL.Certificaciones.v1
 {
-    public interface ICertificacionesServiceV1
+    public interface IDTE_AnulacionBL
     {
-
-        // CERTIFICACIÓN
-        Task<ResponseDTO<object>> CrearCertificacion(DTE_CertificacionDTO dto);
-        Task<ResponseDTO<List<DTE_CertificacionDTO>>> ObtenerCertificaciones();
-        Task<ResponseDTO<DTE_CertificacionDTO>> ObtenerCertificacionPorId(int id);
-
-
-        // ANULACIÓN
-        Task<ResponseDTO<object>> CrearAnulacion(DTE_AnulacionDTO dto);
-
-        // EMISOR
-
-        Task<ResponseDTO<EmisorDTO>> ActivarEmisor(int emisorId);
-        Task<ResponseDTO<EmisorDTO>> DesactivarEmisor(int emisorId);
+        Task<List<DTE_AnulacionDTO>> ObtenerTodos();
+        Task<DTE_AnulacionDTO> ObtenerPorId(int id);
+        Task<DTE_AnulacionDTO> CrearAnulacion(DTE_AnulacionDTO anulacion);
+        Task<List<DTE_AnulacionDTO>> ObtenerPorFacturaId(int facturaId);
     }
 }

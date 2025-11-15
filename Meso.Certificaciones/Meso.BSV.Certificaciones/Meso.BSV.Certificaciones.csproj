@@ -6,4 +6,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Meso.CBL.Certificaciones\Meso.CBL.Certificaciones.csproj" />
+    <ProjectReference Include="..\Meso.CSV.Certificaciones\Meso.CSV.Certificaciones.csproj" />
+    <ProjectReference Include="..\Meso.DTO.Certificaciones\Meso.DTO.Certificaciones.csproj" />
+  </ItemGroup>
+
 </Project>

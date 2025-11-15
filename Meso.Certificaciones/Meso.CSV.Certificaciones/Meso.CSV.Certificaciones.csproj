@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="v1\" />
+    <ProjectReference Include="..\Meso.DTO.Certificaciones\Meso.DTO.Certificaciones.csproj" />
   </ItemGroup>
 
 </Project>

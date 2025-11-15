@@ -1,7 +1,6 @@
-﻿using Meso.BLL.Certificaciones;
-
+﻿using Meso.BLL.Certificaciones.v1;
+using Meso.CBL.Certificaciones.v1;
 using Meso.DAL.Certificaciones;
-using Meso.DAL.Certificaciones.Entities;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
@@ -20,6 +19,13 @@ namespace Meso.BLL.Certificaciones.Config
             services.AddAutoMapper(typeof(ConfigureMaps));
 
 
+            services.AddScoped<IDTE_AnulacionBL, DTE_AnulacionBL>();
+            services.AddScoped<IDTE_CertificacionBL, DTE_CertificacionBL>();
+            services.AddScoped<IDTE_DetalleBL, DTE_DetalleBL>();
+            services.AddScoped<IDTE_FacturaBL, DTE_FacturaBL>();
+            services.AddScoped<IEmisorBL, EmisorBL>();
+            services.AddScoped<IEstablecimientoBL, EstablecimientoBL>();
+            services.AddScoped<ILogs_BitacoraBL, Logs_BitacoraBL>();
 
             return services;
         }
