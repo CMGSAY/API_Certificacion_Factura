@@ -16,4 +16,14 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Meso.BLL.Certificaciones\Meso.BLL.Certificaciones.csproj" />
+    <ProjectReference Include="..\Meso.BSV.Certificaciones\Meso.BSV.Certificaciones.csproj" />
+    <ProjectReference Include="..\Meso.CBL.Certificaciones\Meso.CBL.Certificaciones.csproj" />
+    <ProjectReference Include="..\Meso.CSV.Certificaciones\Meso.CSV.Certificaciones.csproj" />
+    <ProjectReference Include="..\Meso.DAL.Certificaciones\Meso.DAL.Certificaciones.csproj" />
+    <ProjectReference Include="..\Meso.DTO.Certificaciones\Meso.DTO.Certificaciones.csproj" />
+    <ProjectReference Include="..\Meso.TESTS.Certificaciones\Meso.TESTS.Certificaciones.csproj" />
+  </ItemGroup>
+
 </Project>
