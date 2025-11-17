@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Meso.CBL.Certificaciones.v1;
 using Meso.DAL.Certificaciones;
 using Meso.DAL.Certificaciones.Entities;
 using Meso.DTO.Certificaciones.Models;
@@ -11,7 +12,7 @@ using System.Threading.Tasks;
 
 namespace Meso.BLL.Certificaciones.v1
 {
-    public class DTE_DetalleBL 
+    public class DTE_DetalleBL : IDTE_DetalleBL
     {
         private readonly CertificadorDBContext _certificacioncontext;
         private readonly IMapper _mapper;
@@ -64,19 +65,21 @@ namespace Meso.BLL.Certificaciones.v1
             return _mapper.Map<DTE_DetalleDTO>(detalleExistente);
         }
 
-        public async Task<bool> EliminarDetalle(int id)
+        public async Task<bool> EliminarPorFacturaId(int facturaId)
         {
-            var detalle = await _certificacioncontext.DTE_Detalle
-                             .FirstOrDefaultAsync(x => x.DetalleId == id);
+            var detalles = await _certificacioncontext.DTE_Detalle
+                             .Where(x => x.FacturaId == facturaId)
+                             .ToListAsync();
 
-            if (detalle == null)
+            if (!detalles.Any())
                 return false;
 
-            _certificacioncontext.DTE_Detalle.Remove(detalle);
+            _certificacioncontext.DTE_Detalle.RemoveRange(detalles);
             await _certificacioncontext.SaveChangesAsync();
 
             return true;
         }
+
 
         // Métodos específicos para detalles
         public async Task<List<DTE_DetalleDTO>> ObtenerPorFacturaId(int facturaId)
@@ -110,5 +113,12 @@ namespace Meso.BLL.Certificaciones.v1
 
             return total;
         }
+        public async Task<DTE_DetalleDTO> AgregarDetalle(int facturaId, DTE_DetalleDTO dto)
+        {
+
+            dto.FacturaId = facturaId;
+            return await CrearDetalle(dto);
+        }
+
     }
 }

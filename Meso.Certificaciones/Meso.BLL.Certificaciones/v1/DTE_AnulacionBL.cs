@@ -1,7 +1,8 @@
 ﻿using AutoMapper;
-
+using Meso.CBL.Certificaciones.v1;
 using Meso.DAL.Certificaciones;
 using Meso.DAL.Certificaciones.Entities;
+
 using Meso.DTO.Certificaciones.Models;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -12,7 +13,7 @@ using System.Threading.Tasks;
 
 namespace Meso.BLL.Certificaciones.v1
 {
-    public class DTE_AnulacionBL
+    public class DTE_AnulacionBL : IDTE_AnulacionBL
     {
         private readonly CertificadorDBContext _certificacioncontext;
         private readonly IMapper _mapper;

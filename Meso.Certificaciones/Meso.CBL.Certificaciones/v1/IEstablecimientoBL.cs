@@ -14,5 +14,6 @@ namespace Meso.CBL.Certificaciones.v1
         Task<EstablecimientoDTO> CrearEstablecimiento(EstablecimientoDTO establecimiento);
         Task<EstablecimientoDTO> ActualizarEstablecimiento(EstablecimientoDTO establecimiento);
         Task<bool> EliminarEstablecimiento(int id);
+        Task<List<EstablecimientoDTO>> ObtenerPorEmisor(int emisorId);
     }
 }

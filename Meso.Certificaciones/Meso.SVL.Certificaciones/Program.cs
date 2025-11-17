@@ -10,7 +10,7 @@ var corsValue = builder.Configuration.GetSection(CORS_POLICY).Value;
 
 // configuraciones de capas 
 builder.Services.AddBLLConfig();
-builder.Services.AddBSVConfig();
+builder.Services.AddCertificacionesServices();
 builder.Services.AddSVLConfig(corsValue);
 
 // Add services to the container.

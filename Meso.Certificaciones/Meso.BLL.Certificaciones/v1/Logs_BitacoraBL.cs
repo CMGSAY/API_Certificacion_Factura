@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Meso.CBL.Certificaciones.v1;
 using Meso.DAL.Certificaciones;
 using Meso.DAL.Certificaciones.Entities;
 using Meso.DTO.Certificaciones.Models;
@@ -11,7 +12,7 @@ using System.Threading.Tasks;
 
 namespace Meso.BLL.Certificaciones.v1
 {
-    public class Logs_BitacoraBL
+    public class Logs_BitacoraBL : ILogs_BitacoraBL
     {
         private readonly CertificadorDBContext _certificacioncontext;
         private readonly IMapper _mapper;

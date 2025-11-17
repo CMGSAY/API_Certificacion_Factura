@@ -12,5 +12,6 @@ namespace Meso.CBL.Certificaciones.v1
         Task<List<DTE_DetalleDTO>> ObtenerPorFacturaId(int facturaId);
         Task<DTE_DetalleDTO> CrearDetalle(DTE_DetalleDTO detalle);
         Task<bool> EliminarPorFacturaId(int facturaId);
+        Task<DTE_DetalleDTO> AgregarDetalle(int facturaId, DTE_DetalleDTO dto);
     }
 }

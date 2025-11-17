@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Meso.CBL.Certificaciones.v1;
 using Meso.DAL.Certificaciones;
 using Meso.DAL.Certificaciones.Entities;
 using Meso.DTO.Certificaciones.Models;
@@ -10,7 +11,7 @@ using System.Text;
 using System.Threading.Tasks;
 namespace Meso.BLL.Certificaciones.v1
 {
-    public class DTE_FacturaBL
+    public class DTE_FacturaBL : IDTE_FacturaBL // error IDTE_FacturaBL no implementa el mismo interfaz " IDTE_FacturaBL.ActualizarEstado(int.int)
     {
         private readonly CertificadorDBContext _certificacioncontext;
         private readonly IMapper _mapper;
@@ -123,7 +124,7 @@ namespace Meso.BLL.Certificaciones.v1
             return _mapper.Map<List<DTE_FacturaDTO>>(facturas);
         }
 
-        public async Task<DTE_FacturaDTO> ActualizarEstado(int facturaId, byte nuevoEstado)
+        public async Task<DTE_FacturaDTO> ActualizarEstado(int facturaId, int nuevoEstado)
         {
             var factura = await _certificacioncontext.DTE_Factura
                              .FirstOrDefaultAsync(x => x.FacturaId == facturaId);
@@ -131,11 +132,12 @@ namespace Meso.BLL.Certificaciones.v1
             if (factura == null)
                 throw new Exception("Factura no encontrada");
 
-            factura.Estado = nuevoEstado;
+            factura.Estado = (byte)nuevoEstado;
             await _certificacioncontext.SaveChangesAsync();
 
             return _mapper.Map<DTE_FacturaDTO>(factura);
         }
+
 
         public async Task<DTE_FacturaDTO> MarcarComoProcesada(int facturaId)
         {
